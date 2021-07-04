@@ -30,7 +30,7 @@ function Home() {
               <h3>
                 WhatsApp at{" "}
                 <strong className="main-name">+92 335 8856037 </strong>
-                for instant communication
+                for instant communication{" "}
               </h3>
             </Col>
 
