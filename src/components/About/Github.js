@@ -12,7 +12,7 @@ function Github() {
     grade3: "#b22ff4",
     grade2: "#b265f6",
     grade1: "#c084f5",
-    grade0: "#a83250",
+    grade0: "white",
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -21,7 +21,7 @@ function Github() {
       </h1>
       <GitHubCalendar
         username="AyazAI"
-        blockSize={15}
+        blockSize={16}
         blockMargin={5}
         theme={colourTheme}
         fontSize={16}

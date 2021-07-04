@@ -16,11 +16,13 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
+
   useEffect(() => {
     setTimeout(() => {
       upadateLoad(false);
     }, 1200);
   }, []);
+
   return (
     <Router>
       <Preloader load={load} />

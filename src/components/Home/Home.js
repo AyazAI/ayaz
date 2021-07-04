@@ -23,10 +23,15 @@ function Home() {
                 I'M
                 <strong className="main-name"> MUHAMMAD AYAZ</strong>
               </h1>
-              
+
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+              <h3>
+                WhatsApp at{" "}
+                <strong className="main-name">+92 335 8856037 </strong>
+                for instant communication
+              </h3>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
